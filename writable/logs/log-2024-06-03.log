@@ -1,0 +1,130 @@
+INFO - 2024-06-03 04:26:27 --> CSRF token verified.
+INFO - 2024-06-03 04:26:35 --> CSRF token verified.
+CRITICAL - 2024-06-03 04:57:03 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\ShippingCalculator\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: demo/GetCity]
+in SYSTEMPATH\Database\BaseBuilder.php on line 987.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->like('PostCode', null)
+ 2 APPPATH\Controllers\Demo.php(71): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 04:57:03 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\ShippingCalculator\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: demo/GetCity]
+in SYSTEMPATH\Database\BaseBuilder.php on line 987.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->like('PostCode', null)
+ 2 APPPATH\Controllers\Demo.php(71): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 04:57:03 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\ShippingCalculator\vendor\codeigniter4\framework\system\Model.php on line 919
+[Method: GET, Route: demo/GetCity]
+in SYSTEMPATH\Database\BaseBuilder.php on line 987.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->like('PostCode', null)
+ 2 APPPATH\Controllers\Demo.php(71): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 05:02:16 --> ParseError: syntax error, unexpected token "="
+[Method: GET, Route: /]
+in APPPATH\Controllers\Demo.php on line 91.
+ 1 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\ShippingCalculator\\vendor\\composer/../../app\\Controllers\\demo.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\demo')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\demo', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-03 05:08:08 --> CSRF token verified.
+INFO - 2024-06-03 06:30:40 --> CSRF token verified.
+INFO - 2024-06-03 06:33:41 --> CSRF token verified.
+INFO - 2024-06-03 06:35:04 --> CSRF token verified.
+INFO - 2024-06-03 06:35:08 --> CSRF token verified.
+INFO - 2024-06-03 06:38:24 --> CSRF token verified.
+INFO - 2024-06-03 06:38:25 --> CSRF token verified.
+INFO - 2024-06-03 06:38:30 --> CSRF token verified.
+INFO - 2024-06-03 06:47:05 --> CSRF token verified.
+INFO - 2024-06-03 06:53:37 --> CSRF token verified.
+INFO - 2024-06-03 06:54:35 --> CSRF token verified.
+INFO - 2024-06-03 06:54:36 --> CSRF token verified.
+INFO - 2024-06-03 06:58:46 --> CSRF token verified.
+INFO - 2024-06-03 06:58:47 --> CSRF token verified.
+INFO - 2024-06-03 06:58:49 --> CSRF token verified.
+INFO - 2024-06-03 07:00:16 --> CSRF token verified.
+INFO - 2024-06-03 07:00:17 --> CSRF token verified.
+INFO - 2024-06-03 07:00:17 --> CSRF token verified.
+INFO - 2024-06-03 07:00:18 --> CSRF token verified.
+INFO - 2024-06-03 07:04:12 --> CSRF token verified.
+INFO - 2024-06-03 07:04:13 --> CSRF token verified.
+INFO - 2024-06-03 07:10:18 --> CSRF token verified.
+INFO - 2024-06-03 07:13:57 --> CSRF token verified.
+INFO - 2024-06-03 07:13:57 --> CSRF token verified.
+INFO - 2024-06-03 07:13:58 --> CSRF token verified.
+INFO - 2024-06-03 07:20:02 --> CSRF token verified.
+INFO - 2024-06-03 07:20:03 --> CSRF token verified.
+INFO - 2024-06-03 07:27:23 --> CSRF token verified.
+CRITICAL - 2024-06-03 07:33:13 --> ErrorException: Undefined variable $response
+[Method: GET, Route: demo/GetFinal]
+in APPPATH\Controllers\Demo.php on line 108.
+ 1 APPPATH\Controllers\Demo.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetFinal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-03 07:55:42 --> CSRF token verified.
+INFO - 2024-06-03 07:55:46 --> CSRF token verified.
+INFO - 2024-06-03 07:55:46 --> CSRF token verified.
+INFO - 2024-06-03 07:58:04 --> CSRF token verified.
+INFO - 2024-06-03 07:58:24 --> CSRF token verified.
+INFO - 2024-06-03 07:58:26 --> CSRF token verified.
+INFO - 2024-06-03 07:59:24 --> CSRF token verified.
+INFO - 2024-06-03 07:59:25 --> CSRF token verified.
+INFO - 2024-06-03 08:35:44 --> CSRF token verified.
+INFO - 2024-06-03 13:07:44 --> CSRF token verified.
+INFO - 2024-06-03 14:28:52 --> CSRF token verified.
+INFO - 2024-06-03 14:28:53 --> CSRF token verified.
+INFO - 2024-06-03 14:28:56 --> CSRF token verified.
+INFO - 2024-06-03 14:28:59 --> CSRF token verified.
+CRITICAL - 2024-06-03 14:29:26 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 82.
+ 1 APPPATH\Controllers\Demo.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:29:26 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 82.
+ 1 APPPATH\Controllers\Demo.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 14:29:28 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 82.
+ 1 APPPATH\Controllers\Demo.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-03 14:30:10 --> CSRF token verified.
+INFO - 2024-06-03 14:30:10 --> CSRF token verified.

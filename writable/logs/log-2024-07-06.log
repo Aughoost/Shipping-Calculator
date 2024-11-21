@@ -1,0 +1,53 @@
+INFO - 2024-07-06 03:39:02 --> CSRF token verified.
+INFO - 2024-07-06 03:39:02 --> CSRF token verified.
+CRITICAL - 2024-07-06 03:39:26 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 147.
+ 1 APPPATH\Controllers\Demo.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 03:39:26 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 147.
+ 1 APPPATH\Controllers\Demo.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 03:39:27 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 147.
+ 1 APPPATH\Controllers\Demo.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 04:06:55 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 147.
+ 1 APPPATH\Controllers\Demo.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 04:09:27 --> ErrorException: Undefined variable $data
+[Method: GET, Route: demo/GetCity]
+in APPPATH\Controllers\Demo.php on line 147.
+ 1 APPPATH\Controllers\Demo.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ShippingCalculator\\app\\Controllers\\Demo.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Demo->GetCity()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-06 04:09:53 --> CSRF token verified.
